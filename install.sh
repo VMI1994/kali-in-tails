@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt update -y
+apt upgrade -yq
 git clone https://github.com/vmi1994/docker-portainer
 cd docker-portainer
 bash Install.sh
